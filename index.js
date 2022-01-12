@@ -13,12 +13,13 @@ app.get('/api', (req, res) => {
     res.json({
       availableRoutes: {
         '/api': ['GET'],
+        '/api/books': ['GET'],
+        '/api/books/:id': ['GET']
       }
     })
   });
 
 app.use('/api/books', BooksRouter);
-  
 
 app.listen(3000, () => {
  console.log("Server running on port 3000");
