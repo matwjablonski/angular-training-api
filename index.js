@@ -13,8 +13,9 @@ app.get('/api', (req, res) => {
     res.json({
       availableRoutes: {
         '/api': ['GET'],
-        '/api/books': ['GET'],
-        '/api/books/:id': ['GET']
+        '/api/books': ['GET', 'POST'],
+        '/api/books/:id': ['GET'],
+        '/api/books/search/:title': ['GET']
       }
     })
   });

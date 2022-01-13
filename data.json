@@ -6,7 +6,9 @@
             "authors": "Jan Kowalski",
             "category": "Science Fiction",
             "bestseller": true,
-            "description": "Lorem ipsum dolor sinet legem."
+            "description": "Lorem ipsum dolor sinet legem.",
+            "price": 3300,
+            "publishDate": 1223088800000
         },
         {
             "id": 2,
@@ -14,7 +16,9 @@
             "authors": "Marek Nowak",
             "category": "For kids",
             "bestseller": false,
-            "description": "Lorem ipsum dolor sinet legem."
+            "description": "Lorem ipsum dolor sinet legem.",
+            "price": 37,
+            "publishDate": "2000-01-22T23:00:00.000Z"
         },
         {
             "id": 3,
@@ -22,7 +26,9 @@
             "authors": "Adam Adamski",
             "category": "Mistery",
             "bestseller": false,
-            "description": "Lorem ipsum dolor sinet legem."
+            "description": "Lorem ipsum dolor sinet legem.",
+            "price": 34,
+            "publishDate": "2010-12-22T23:00:00.000Z"
         },
         {
             "id": 4,
@@ -30,7 +36,9 @@
             "authors": "Łukasz Kapsel",
             "category": "Science Fiction",
             "bestseller": false,
-            "description": "Lorem ipsum dolor sinet legem."
+            "description": "Lorem ipsum dolor sinet legem.",
+            "price": 3400,
+            "publishDate": "1999-12-22T23:00:00.000Z"
         },
         {
             "id": 5,
@@ -38,7 +46,9 @@
             "authors": "Kamil Nowak",
             "category": "For kids",
             "bestseller": false,
-            "description": "Lorem ipsum dolor sinet legem."
+            "description": "Lorem ipsum dolor sinet legem.",
+            "price": 8400,
+            "publishDate": "1983-12-22T23:00:00.000Z"
         }
     ]
 }
